@@ -1,12 +1,25 @@
 <div class="navtabs-container">
-    <nav mat-tab-nav-bar>
-        <span class="toolbar-flex"></span>
-        <mat-tab-group>
-            <mat-tab label="k"> </mat-tab>
-            <mat-tab label="h"> </mat-tab>
-            <mat-tab label="j"> </mat-tab>
-            <mat-tab label="n"> </mat-tab>
-        </mat-tab-group>
-        <span class="toolbar-flex"></span>
+    <nav mat-tab-nav-bar  fxFlex fxLayout fxLayoutAlign="center center">
+        <a mat-tab-link routerLink="/"
+        routerLinkActive #home="routerLinkActive"
+        [active]="home.isActive">
+      HOME
+     </a>
+     <a mat-tab-link routerLink="/accomodation"
+        routerLinkActive #accomodation="routerLinkActive"
+        [active]="accomodation.isActive">
+      ACCOMODATION
+     </a>
+     <a mat-tab-link routerLink="/foodandbeverage"
+        routerLinkActive #foodandbeverage="routerLinkActive"
+        [active]="foodandbeverage.isActive">
+      FOOD & BEVERAGES
+     </a>
+     <a mat-tab-link routerLink="/lifestyle"
+        routerLinkActive #lifestyle="routerLinkActive"
+        [active]="lifestyle.isActive">
+      LIFESTYLE
+     </a>
+
     </nav>
 </div>

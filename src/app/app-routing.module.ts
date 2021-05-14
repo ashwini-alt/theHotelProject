@@ -13,6 +13,7 @@ import { HomeComponent } from './home/home.component';
 const routes: Routes = [
   {path: 'accomodation', component: AccomodationComponent},
   {path: 'food-beverage', component: FoodBeverageComponent},
+  {path: 'foodandbeverage', component: FoodBeverageComponent},
   {path: 'lifestyle', component: LifestyleComponent},
   {path: 'offers', component: OffersComponent},
   {path: 'signin', component: SigninComponent},
