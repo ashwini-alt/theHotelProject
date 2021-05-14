@@ -1,5 +1,13 @@
 @import '~@angular/material/theming';
 
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+@import '~bootstrap/scss/reboot';
+@import '~bootstrap/scss/grid';
+
+
+
 @include mat-core();
 $thehotelproject-primary: (
     50 : #f6fbfb,

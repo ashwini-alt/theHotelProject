@@ -1,0 +1,15 @@
+.freethings{
+    background-color: lightyellow;
+}
+span{
+    padding-left:3px;
+    font-size: large;
+}
+.container{
+    padding:2rem;
+}
+.matheader{
+    justify-content:center;
+    
+    font-style: initial;
+}

@@ -29,6 +29,8 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatListModule} from '@angular/material/list';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import {MatTabsModule} from '@angular/material/Tabs';
+import {FormsModule} from '@angular/forms';
+import {MatCardModule} from '@angular/material/card';
 @NgModule({
   declarations: [
     AppComponent,
@@ -61,7 +63,8 @@ import {MatTabsModule} from '@angular/material/Tabs';
     MatSidenavModule,
     MatListModule,
     FlexLayoutModule,
-    MatTabsModule
+    MatTabsModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
